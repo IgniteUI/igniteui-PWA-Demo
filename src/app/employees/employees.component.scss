@@ -1,0 +1,105 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.page-container {
+  background-color: var(--ig-gray-100);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 16px;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 16px;
+  position: relative;
+  min-width: 320px;
+  min-height: 50px;
+  flex-grow: 5;
+  flex-basis: 0;
+}
+.group_2 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 16px;
+  position: relative;
+}
+.group_3 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 16px;
+  min-width: 280px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_4 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 16px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.pie-chart {
+  --brushes: #72B24D #9362A3 #F06583 #FCB13F #407DB7;
+  --outlines: #72B24D #9362A3 #F06583 #FCB13F #407DB7;
+  min-height: 250px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.grid {
+  --ig-size: var(--ig-size-medium);
+  min-width: 248px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}

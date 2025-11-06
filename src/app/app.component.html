@@ -1,0 +1,27 @@
+<igx-navbar class="navbar">
+  <igx-navbar-title class="navbar-content">
+    <h6 class="content">
+      Angular PWA Dashboard Example using Ignite UI
+    </h6>
+    <p class="ig-typography__body-2 content"></p>
+  </igx-navbar-title>
+</igx-navbar>
+<div class="row-layout group">
+  <div class="view-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<igx-drop-down #userDropDown class="user-drop-down">
+  <igx-drop-down-item [isHeader]="true">
+    Hi, firstName
+  </igx-drop-down-item>
+  <igx-drop-down-item>
+    Profile
+  </igx-drop-down-item>
+  <igx-drop-down-item>
+    Settings
+  </igx-drop-down-item>
+  <igx-drop-down-item>
+    Sign out
+  </igx-drop-down-item>
+</igx-drop-down>

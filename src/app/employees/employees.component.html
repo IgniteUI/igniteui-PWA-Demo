@@ -1,0 +1,24 @@
+<div class="column-layout page-container">
+	<div class="row-layout group">
+		<div class="column-layout group_1">
+			<div class="row-layout group_2">
+				<div class="column-layout group_3">
+					<p class="text">
+						Employee titles
+					</p>
+					<igx-pie-chart [dataSource]="northwindEmployees" labelMemberPath="title" valueMemberPath="employeeID" class="pie-chart"></igx-pie-chart>
+				</div>
+			</div>
+			<div class="column-layout group_4">
+				<p class="text">
+					All employees
+				</p>
+				<igx-grid [data]="northwindEmployees" primaryKey="employeeID" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+					<igx-column field="employeeID" dataType="number" header="employeeID" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+					<igx-column field="lastName" dataType="string" header="lastName" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+					<igx-column field="firstName" dataType="string" header="firstName" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+				</igx-grid>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,90 @@
+[
+  {
+    "Message": "Array property 'territoryIDs' in model 'Employees' does not define an 'items' schema. Property is not generated.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Data",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.548733Z"
+  },
+  {
+    "Message": "Non matching model property 'Employees' for schema 'territoryIDs'",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Data",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.548753Z"
+  },
+  {
+    "Message": "Array property 'territoryIDs' in model 'Employees' does not define an 'items' schema. Property is not generated.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Data",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.5493532Z"
+  },
+  {
+    "Message": "Non matching model property 'Employees' for schema 'territoryIDs'",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Data",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.5493681Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.7436337Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.7436359Z"
+  },
+  {
+    "Message": "Library with id '' was not found.",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.7436851Z"
+  },
+  {
+    "Message": "Missing definition id!",
+    "Level": "Error",
+    "Reason": "NotFound",
+    "Category": "Component",
+    "Context": {
+      "ComponentId": null,
+      "ViewId": null
+    },
+    "UTCTimestamp": "2025-11-04T13:30:48.7436854Z"
+  }
+]
