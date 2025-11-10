@@ -1,5 +1,7 @@
 # Angular PWA Dashboard Example using Ignite UI
 
+Live application - https://igniteui.github.io/igniteui-PWA-Demo
+
 This project was generated with [App Builder Code Gen](https://www.appbuilder.dev/platform).
 
 ## Development server
