@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
-    "build:gh-pages": "ng build --configuration production",
+    "build:gh-pages": "ng build --configuration production --base-href /igniteui-PWA-Demo/",
     "watch": "ng build --watch --configuration development",
     "test": "node --max-old-space-size=8192 ./node_modules/@angular/cli/bin/ng test",
     "lint": "ng lint"
