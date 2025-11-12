@@ -1,5 +1,16 @@
 # Angular PWA Example
 
+Built with the Ignite UI, this example delivers fast, real-time updates for data-driven applications. Any component in the Ignite UI library can be used for building Progressive Web Apps, enabling you to craft rich, interactive, and high-performance user experiences.
+In the dedicated blog post, you can even explore every step that builds this app. You’ll see how to:
+
+1. Generate a new Angular workspace and add PWA support.
+2. Install and configure Ignite UI for Angular.
+3. Build a functional UI using Grid and Chart components.
+4. Optimize performance with caching and lazy loading.
+5. Deploy an installable, offline-ready Angular app.
+
+Components used: Data Grid, Chart, NavBar
+
 Live application - https://igniteui.github.io/igniteui-PWA-Demo
 
 This project was generated with [App Builder Code Gen](https://www.appbuilder.dev/platform).
