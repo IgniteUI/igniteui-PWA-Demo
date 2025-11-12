@@ -1,4 +1,4 @@
-# Angular PWA Dashboard Example using Ignite UI
+# Angular PWA Example
 
 Live application - https://igniteui.github.io/igniteui-PWA-Demo
 
