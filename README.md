@@ -11,7 +11,7 @@ In the dedicated blog post, you can even explore every step that builds this app
 
 Components used: Data Grid, Chart, NavBar
 
-Live application - https://igniteui.github.io/igniteui-PWA-Demo
+Live application - https://igniteui.github.io/angular-pwa-example
 
 This project was generated with [App Builder Code Gen](https://www.appbuilder.dev/platform).
 
